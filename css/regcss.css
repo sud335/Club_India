@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Jul, 2014, 8:36:16 PM
+    Author     : annju
+*/
+
+
+#bottlesign{
+    background-image: url(bottle.jpg);
+    background-repeat: repeat-x;
+}
+#line{
+    z-index: 1;
+    background-color: #ff9900;
+    position: fixed;
+    top:-20px;
+    left:1px;
+    height: 15px;
+    width:100%;
+    
+}
+#club { 
+    background-color:#ff9900;
+        width: 250px;
+        height: 40px;
+        top: 10px;
+        left: 1px;
+    position: fixed;
+font-family:Copperplate Gothic Light;
+font-size:100%;
+color: #D35400;
+font-weight:800;
+border-radius:5px;
+}
+
+#whole {
+    background-color: coral;
+    padding: 30px;
+    
+    top:65px;
+    left:512px;
+    position: fixed;
+    border-radius: 10px;
+    font-family: Copperplate Gothic Light;
+    box-shadow: 10px 10px 5px #F5B062;
+    
+}
+#user, #details{
+    background-color: #F5B062;
+    padding: 10px;
+     border-radius: 10px;
+}
+#mypassword,#mypassword2,#myusername,#first_name,#last_name,#email{
+    border-radius: 10px;
+}
+#myusername::-webkit-input-placeholder, #mypassword::-webkit-input-placeholder, #mypassword2::-webkit-input-placeholder {
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+     font-family:Copperplate Gothic Light;
+}
+#back{
+    top: 520px;
+    position: fixed;
+    font-size: 30px;
+    font-family: Copperplate Gothic Light;
+    color: #D35400;
+    font-weight:800;
+}
+#submit{
+     top: 500px;
+     left: 620px;
+    position: fixed;
+    font-size: 30px;
+    font-family: Copperplate Gothic Light;
+    background:  #F5B062;
+    box-shadow: 10px 10px 5px coral;
+    font-weight:400;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: groove;
+    border-color: orangered;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}

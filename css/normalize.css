@@ -1,0 +1,80 @@
+#amb, #serv, #over, #com{
+    background-color: white;
+    border-radius: 5px;
+    
+    color: black;
+    
+    font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+#inp{
+    
+}
+#com{
+    top: 400px;
+    left: 50px;
+    position: fixed;
+}
+#amb{
+    top: 200px;
+    left:50px;
+    position: fixed;
+}
+#serv{
+    top: 200px;
+    left:700px;
+    position: fixed;
+}
+#over{
+    top: 300px;
+    left: 400px;
+    position: fixed;
+}
+#done{
+    
+    
+    font-family: Franklin Gothic Book;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: black;
+    left: 500px;
+    top:550px;
+    position: absolute;
+    box-shadow: 10px 10px 5px black;
+  
+}
+
+
+input[type=radio].css-checkbox {
+							display:none;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:45px;
+							height:40px; 
+							display:inline-block;
+							line-height:40px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:40px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -40px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_019807af606f0dea9eb28a8d35a7afc6.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}

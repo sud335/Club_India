@@ -1,0 +1,103 @@
+#club { 
+z-index: 1;
+    background-color:#ff9900;
+        width: 250px;
+        height: 40px;
+        top: 10px;
+        left: 1px;
+    position: fixed;
+font-family:Copperplate Gothic Light;
+font-size:100%;
+color: #D35400;
+font-weight:800;
+border-radius:5px;
+}
+#lefty {
+    display: inline-block;
+    float: right; 
+    z-index: 2;
+    position: relative;
+    font-size: 17px;
+    font-family:Copperplate Gothic Light;
+    color: #D35400;
+    font-weight:900;
+}
+
+#line{
+    z-index: 1;
+    background-color: #ff9900;
+    position: fixed;
+    top:-20px;
+    left:1px;
+    height: 15px;
+    width:100%;
+    
+}
+
+
+
+input[type=checkbox].css-checkbox2 {
+							display:none;
+						}
+
+						input[type=checkbox].css-checkbox2 + label.css-label2 {
+							padding-left:29px;
+							height:24px; 
+							display:inline-block;
+							line-height:24px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:24px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox2:checked + label.css-label2 {
+							background-position: 0 -24px;
+						}
+						label.css-label2 {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_a79b6a154c8afd8259a311f70aa9bb45.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+input[type=radio].css-checkbox {
+							display:none;
+						}
+
+input[type=radio].css-checkbox + label.css-label {
+							padding-left:23px;
+							height:19px; 
+							display:inline-block;
+							line-height:19px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:19px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -19px;
+						}
+label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_64f790768bfcd2312a5e95cc2db91169.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+                        
+#sort1, #sort2{
+                  font-family: Copperplate Gothic Light;
+                  border-radius: 5px;
+                  background-color:#ff9900;
+                  color: black;
+                  font-size: 20px;
+                        }

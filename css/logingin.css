@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Jul, 2014, 10:42:05 AM
+    Author     : annju
+*/
+
+body{
+   
+}
+#linesig{
+    z-index: 1;
+    background-color: #ff9900;
+    position: fixed;
+    top:-20px;
+    left:1px;
+    height: 15px;
+    width:100%;
+    
+}
+#pusig{
+    background-color:#ff9900;
+        width: 150px;
+        height: 80px;
+        top: 10px;
+        left: 582px;
+    position: fixed;
+font-family:Copperplate Gothic Light;
+font-size:100%;
+color: #D35400;
+font-weight:800;
+border-radius:5px;
+text-align: center;
+}
+#clubsig { 
+    background-color:#ff9900;
+        width: 250px;
+        height: 40px;
+        top: 10px;
+        left: 1px;
+    position: fixed;
+font-family:Copperplate Gothic Light;
+font-size:100%;
+color: #D35400;
+font-weight:800;
+border-radius:5px;
+}
+
+#logsig {
+    background-color: palegoldenrod;
+    padding: 30px;
+    
+    top:205px;
+    left:512px;
+    position: fixed;
+    border-color: orangered;
+    border-style: groove;
+   border-radius: 20px;
+   box-shadow: 10px 10px 5px coral;
+  height: 250px;
+    
+    font-family:Copperplate Gothic Light;
+    color: #D35400;
+    font-weight:600;
+    text-align: center;
+}
+#myusernamesig, #mypasswordsig{
+    height: 30px; 
+    font-size: 20px;
+    line-height: 1.2em;
+    border-radius: 15px;
+}
+#myusernamesig::-webkit-input-placeholder, #mypasswordsig::-webkit-input-placeholder {
+    color: orangered;
+    font-size: 15px;
+    text-align: center;
+     font-family:Copperplate Gothic Light;
+}
+
+#subsig{
+    border-radius: 10px;
+    height: 30px;
+    background-color: orangered;
+    font-size: 15px;
+    text-align: center;
+     font-family:Copperplate Gothic Light;
+    
+}
+
+
+#backsig{
+    top: 520px;
+    position: fixed;
+    font-size: 30px;
+    font-family: Copperplate Gothic Light;
+    color: #D35400;
+    font-weight:800;
+}
+#registersig{
+     top: 500px;
+     left: 580px;
+    position: fixed;
+    font-size: 30px;
+    font-family: Copperplate Gothic Light;
+    background:  coral;
+    box-shadow: 10px 10px 5px coral;
+    font-weight:400;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border: groove;
+    border-color: orangered;
+    text-align: center;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
